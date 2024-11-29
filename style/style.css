@@ -72,7 +72,24 @@ ul li {
 }
 
 ul li::before {
-  position: relative;
+  position: absolute;
   height: 10px;
   width: 20px;
+  border-radius: 50px;
+  background-image: url(/image/icons.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
 }
+
+ul li.team {
+  text-decoration: line-through;
+  color: orange;
+}
+
+ul li.team::before {
+  background-image: url(/image/icons.jpg);
+}
+
+
