@@ -11,19 +11,17 @@
     <div class="starting">
       <h2>MY TO DO LIST</h2>
       <div class="list-text">
-        <input type="text" id="box-type" placeholder="Add your text">
-        <button onclick="addTask">Add</button>
-      </div>
-      <div class="main">
-      <ul id="select-list">
-       <li class="team">Task 1</li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-        <li>Task 4</li>
-      </ul> 
+        <form> 
+          <label>
+            <input type="text" id="select" class="formgroup" placeholder="Add task" required>
+          </label>
+        </form>
+        <button type="button" id="sub">Add</button>
+        </div>  
+        <ul id="list"></ul>     
+      
     </div>
     </div>
-  </div>
   <script src="./script/list.js"></script>
 </body>
 

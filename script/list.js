@@ -1,10 +1,10 @@
-const boxType = document.getElementById("box-type")
-const selectList = document.getElementById("select-list")
-const button = document.getElementById('addTask')
+const boxType = document.getElementById('select')
+const selectList = document.getElementById('sub')
+const b = document.getElementById('list')
 
-button.addEventListener("click", () => {
+selectList.addEventListener("click", () => {
   const ulitem = document.createElement('li')
-  ulitem.innerHTML = addTask.value
+  ulitem.innerHTML = boxType.value
   list.append(ulitem)
   input.value = ''
 })
