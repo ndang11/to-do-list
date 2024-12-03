@@ -83,13 +83,21 @@ ul li::before {
   left: 8px;
 }
 
-ul li.team {
-  text-decoration: line-through;
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
   color: orange;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
 }
 
-ul li.team::before {
-  background-image: url(/image/icons.jpg);
+ul li span:hover {
+  background: orange; 
 }
 
 
